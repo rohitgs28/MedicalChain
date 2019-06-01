@@ -151,7 +151,7 @@ fieldset[disabled] .btn-xl.active {
   border-color: transparent;
 }
 .navbar-custom .navbar-brand {
-  color: #00FFFF;
+  color: #FF0000;
 
 }
 .navbar-custom .navbar-brand:hover,
@@ -578,6 +578,9 @@ section#contact .form-group textarea.form-control {
 section#contact .form-control:focus {
   border-color: #FFFFFF;
   box-shadow: none;
+}
+:required{
+	color:#000000;
 }
 section#contact ::-webkit-input-placeholder {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
